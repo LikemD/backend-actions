@@ -33,7 +33,7 @@ jobs:
       name: Build & push Docker image
       with:
         image: lskd19/backend-actions
-        registry: registry-url.io
+        registry: https://hub.docker.com/repository/docker/lskd19/github-actions-demo
         dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
