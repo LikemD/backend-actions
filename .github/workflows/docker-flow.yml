@@ -34,6 +34,5 @@ jobs:
       with:
         image: lskd19/github-actions-demo
         registry: docker.io
-        dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
